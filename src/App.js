@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <section>
         <header>
-          <nav class="navbar navbar-expand-lg bg-dark">
+          <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="top">
                 John Doe
@@ -49,7 +49,7 @@ const App = () => {
                     </Link>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" To="/Blog">
+                    <Link class="nav-link" to="/Blog">
                       Blog
                     </Link>
                   </li>
