@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Accueil = () => {
   return (
     <div>
@@ -9,7 +7,7 @@ const Accueil = () => {
       </section>
       <section>
         <div class="container">
-          <div className="row justify-align">
+          <div>
             <h2>A propos</h2>
           </div>
           <div>
