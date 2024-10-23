@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <footer>
         <section className="row text-center p-4">
-          <div className="container">
+          <div className="container justify-content-bottom">
             <div className="row justify-content-between">
               <article className="col-md-6 col-lg-auto mb-5">
                 <h3>John Doe</h3>
