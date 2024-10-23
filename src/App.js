@@ -5,7 +5,7 @@ import Accueil from "./components/Accueil";
 import Services from "./components/Services";
 import Réalisations from "./components/Réalisations";
 import Blog from "./components/Blog";
-import Contact from "./components/Contacte";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const App = () => {

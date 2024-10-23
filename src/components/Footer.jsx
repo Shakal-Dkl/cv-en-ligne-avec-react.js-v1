@@ -7,9 +7,9 @@ const Footer = () => {
     <div>
       <footer>
         <section className="row text-center p-4">
-          <div className="container justify-content-bottom">
+          <div className="container">
             <div className="row justify-content-between">
-              <article className="col-md-6 col-lg-auto mb-5">
+              <article className="col-md-6 col-lg-2 mb-5">
                 <h3>John Doe</h3>
                 <h4>40 rue Laure Sieblod</h4>
                 <h4>69009 Lyon, France</h4>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <Link href="">facebood</Link>
                 <Link href="">linkeded</Link>
               </article>
-              <article className="col-md-6 col-lg-auto mb-5">
+              <article className="col-md-6 col-lg-2 mb-5">
                 <h3>Liens utiles</h3>
                 <Link href="">Accueil</Link>
                 <Link href="">facebood</Link>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Link href="">linkeded</Link>
                 <Link href="">linkeded</Link>
               </article>
-              <article className="col-md-6 col-lg-auto mb-5">
+              <article className="col-md-6 col-lg-2 mb-5">
                 <h3>Mes dernieres réalisations</h3>
                 <h4>40 rue Laure Sieblod</h4>
                 <h4>69009 Lyon, France</h4>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link href="">facebood</Link>
                 <Link href="">linkeded</Link>
               </article>
-              <article className="col-md-6 col-lg-auto mb-5">
+              <article className="col-md-6 col-lg-2 mb-5">
                 <h3>Mes derniers articles</h3>
                 <h4>40 rue Laure Sieblod</h4>
                 <h4>69009 Lyon, France</h4>
