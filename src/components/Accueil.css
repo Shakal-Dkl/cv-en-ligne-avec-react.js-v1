@@ -1,0 +1,21 @@
+.bg-image {
+  background-image: url(/src/assets/img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .bg-image {
+    background-position: top;
+    height: 80vh;
+  }
+}
+@media (max-width: 768px) {
+  .bg-image {
+    height: 80vh;
+  }
+}

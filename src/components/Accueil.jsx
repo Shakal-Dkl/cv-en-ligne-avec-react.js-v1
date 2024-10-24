@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import img1 from "../assets/img/john-doe-about.jpg";
+import "./Accueil.css";
 
 const Accueil = () => {
   return (
     <div>
-      <section>
-        <div className="container text-center">
-          <h1 className="Tetx_bj">Bonjour, je suis John Doe</h1>
+      <section className="bg-image d-flex justify-content-center align-item-center img-fluid">
+        <div className="container text-white text-center px-3 ">
+          <h1 className="">Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
           {/*Faire le bouton avec le CSS trop moche en bootstrap */}
           <Link className="btn btn-primary" to="#" role="button">
@@ -15,7 +16,7 @@ const Accueil = () => {
         </div>
       </section>
       <section>
-        <div className="container text-center">
+        <div className="container " style={{ backgroundColor: "#fff" }}>
           <div className="row row-cols-2">
             <div className="col">
               <h2>A propos</h2>
