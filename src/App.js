@@ -13,13 +13,16 @@ const App = () => {
     <div className="App">
       <section>
         <header>
-          <nav className="navbar navbar-dark navbar-expand-lg bg-dark p-3">
-            <div className="container-fluid">
+          <nav
+            className="navbar navbar-expand-lg"
+            style={{ backgroundColor: "#1e1e1e" }}
+          >
+            <div className="container-fluid ">
               <Link className="navbar-brand" href="top">
                 John Doe
               </Link>
               <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -29,30 +32,37 @@ const App = () => {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <Link class="nav-link" aria-current="page" to="/Accueil">
+              <div
+                className="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link "
+                      aria-current="page"
+                      to="/Accueil"
+                    >
                       Accueil
                     </Link>
                   </li>
-                  <li class="nav-item">
-                    <Link class="nav-link" to="/Services">
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/Services">
                       Services
                     </Link>
                   </li>
-                  <li class="nav-item">
-                    <Link class="nav-link" to="/Réalisations">
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/Réalisations">
                       Realisations
                     </Link>
                   </li>
-                  <li class="nav-item">
-                    <Link class="nav-link" to="/Blog">
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/Blog">
                       Blog
                     </Link>
                   </li>
-                  <li class="nav-item">
-                    <Link class="nav-link" to="/Contact">
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/Contact">
                       Me contacter
                     </Link>
                   </li>
