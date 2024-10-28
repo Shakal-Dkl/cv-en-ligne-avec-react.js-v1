@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div>
+    <div className="Contact" backgroundImage="./assets/img/contact-bg.jpg">
       <div className="container">
         <div className="Text_infos text-center">
           <h2 className="text-uppercase">ME CONTACTER</h2>
@@ -21,7 +21,8 @@ const Contact = () => {
               <i className="fas fa-mobile-alt"> 06 20 30 40 50</i>
             </address>
             <iframe
-              className="iframe-fluid"
+              title="map"
+              className="map-fluid"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5565.313864755457!2d4.799070092087464!3d45.77806522783525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1729716895766!5m2!1sfr!2sfr"
               width="600"
               height="450"
@@ -76,7 +77,7 @@ const Contact = () => {
                   rows="7"
                 ></textarea>
                 {/*Faire le bouton avec le CSS trop moche en bootstrap */}
-                <div class="btn justify-content-center">
+                <div className="btn justify-content-center">
                   <button
                     className="btn"
                     style={{ background: "#0d6efd" }}

@@ -14,7 +14,7 @@ const Footer = () => {
                 <h4>40 rue Laure Sieblod</h4>
                 <h4>69009 Lyon, France</h4>
                 <h4>Téléphone : 06 20 30 40 50</h4>
-                <i class="fa-brands fa-github fa-2xl"></i>
+                <i className="fa-brands fa-github fa-2xl"></i>
                 <Link href="">facebood</Link>
                 <Link href="">linkeded</Link>
               </article>

@@ -4,21 +4,23 @@ import "./Accueil.css";
 
 const Accueil = () => {
   return (
-    <div>
-      <section className="bg-image d-flex justify-content-center align-item-center img-fluid">
-        <div className="container text-white text-center px-3 ">
-          <h1 className="">Bonjour, je suis John Doe</h1>
-          <h2>Développeur web full stack</h2>
-          {/*Faire le bouton avec le CSS trop moche en bootstrap */}
-          <Link className="btn btn-primary" to="#" role="button">
-            En savoir plus
-          </Link>
+    <div className="">
+      <section>
+        <div className="bgimage">
+          <div className="container text-white text-center px-3 ">
+            <h1 className="">Bonjour, je suis John Doe</h1>
+            <h2>Développeur web full stack</h2>
+            {/*Faire le bouton avec le CSS trop moche en bootstrap */}
+            <Link className="btn btn-primary" to="#" role="button">
+              En savoir plus
+            </Link>
+          </div>
         </div>
       </section>
-      <section>
-        <div className="container " style={{ backgroundColor: "#fff" }}>
-          <div className="row row-cols-2">
-            <div className="col">
+      <section className="bg-light">
+        <div className="container ">
+          <div className="row row-cols-2 ">
+            <div className=" col">
               <h2>A propos</h2>
               <p>
                 Passionné par l'informatique et les nouvelles technologies, j'ai
