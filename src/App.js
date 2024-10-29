@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App bg-light">
       <section>
         <header>
           <nav
