@@ -4,7 +4,7 @@ import "./Accueil.css";
 
 const Accueil = () => {
   return (
-    <div className="">
+    <div className=" ">
       <section>
         <div className="bgimage">
           <div className="container text-white text-center px-3 ">
@@ -17,10 +17,10 @@ const Accueil = () => {
           </div>
         </div>
       </section>
-      <section className="bg-light">
-        <div className="container ">
-          <div className="row row-cols-2 ">
-            <div className=" col">
+      <section className="">
+        <div className="container bg-white ">
+          <div className="row m-5 ">
+            <div className="col-md-6 mb-5">
               <h2>A propos</h2>
               <p>
                 Passionné par l'informatique et les nouvelles technologies, j'ai
@@ -40,10 +40,10 @@ const Accueil = () => {
                 j'écris et je recherche les bonnes pratiques du web.
               </p>
             </div>
-            <div className="col">
+            <div className="col-md-6 mb-5">
               <img className="img-fluid" src={img1} alt="img John Doe" />
               <h2>Mes compétences</h2>
-              <div className="reactbar">
+              <div className="Htmltbar">
                 <p>HTML 90%</p>
                 <div className="progress">
                   <div
