@@ -1,7 +1,10 @@
 const Services = () => {
   return (
     <div>
-      <h1>Bienvenue sur ma page Services !</h1>
+      <div className="container" id="tittle">
+        <h1>MON OFFRE DE SERVICES</h1>
+        <p>Voici les prestations sur lesquelles je peux intervenir.</p>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,6 @@
 .bgimage {
   background-image: url(/src/assets/img/hero-bg.jpg);
   background-size: cover;
-  min-width: 60vh;
   position: relative;
   display: flex;
   justify-content: center;

@@ -4,10 +4,10 @@ import "./Accueil.css";
 
 const Accueil = () => {
   return (
-    <div className=" ">
+    <div className="accueil">
       <section>
         <div className="bgimage">
-          <div className="container text-white text-center px-3 ">
+          <div className="container text-white text-center ">
             <h1 className="">Bonjour, je suis John Doe</h1>
             <h2>Développeur web full stack</h2>
             {/*Faire le bouton avec le CSS trop moche en bootstrap */}
