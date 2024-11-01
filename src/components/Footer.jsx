@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <section className="row p-4">
-          <div className="container">
+        <section className="row">
+          <div className="container p-5">
             <div className="row justify-content-between">
-              <article className="adresse col-md-6 col-lg-2 mb-5">
+              <article className="col-md-6 col-lg-2 mb-5">
                 <h4>John Doe</h4>
                 <h6>40 rue Laure Sieblod</h6>
                 <h6>69009 Lyon, France</h6>
@@ -32,7 +32,7 @@ const Footer = () => {
                   ></Link>
                 </div>
               </article>
-              <article className="lienutile col-md-6 col-lg-2 mb-5">
+              <article className="col-md-6 col-lg-2 mb-5">
                 <h3>Liens utiles</h3>
                 <Link
                   to=""
@@ -68,10 +68,8 @@ const Footer = () => {
           </div>
         </section>
 
-        <div className="">
-          <p className="text-center m-0 text-bg-dark p-3">
-            Designed by John Doe
-          </p>
+        <div>
+          <p className="text-center m-0 text-bg-dark">Designed by John Doe</p>
         </div>
       </footer>
     </div>

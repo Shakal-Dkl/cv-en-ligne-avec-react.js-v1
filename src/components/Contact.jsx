@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="Contact" backgroundImage="./assets/img/contact-bg.jpg">
+    <div className="Contact">
       <div className="container">
         <div className="Text_infos text-center">
           <h2 className="text-uppercase">ME CONTACTER</h2>
@@ -12,7 +12,6 @@ const Contact = () => {
         <div className="row">
           <article className="col-md-6 col-lg-6 mb-5">
             <h3>Mes coordonnées</h3>
-
             <address>
               <i className="fas fa-map-marker">
                 40 Rue Laure Diebold, 69009 Lyon, France
