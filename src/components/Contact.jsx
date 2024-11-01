@@ -1,8 +1,14 @@
+import "./Accueil.css";
+import background from "../assets/img/contact-bg.jpg";
+
 const Contact = () => {
   return (
-    <div className="Contact">
-      <div className="container">
-        <div className="Text_infos text-center">
+    <div
+      className="Bg_Contact"
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      <div className="container rounded-3 bg-white ">
+        <div className="text-center">
           <h2 className="text-uppercase">ME CONTACTER</h2>
           <p>
             Pour me contacter en vue d'un entretien ou d'une future
@@ -10,7 +16,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="row">
-          <article className="fluid col-md-6 col-lg-6 mb-5 p-5">
+          <div className=" col-md-6 col-lg-6 mb-5 p-5">
             <h3>Mes coordonnées</h3>
             <address>
               <i className="fas fa-map-marker">
@@ -30,7 +36,7 @@ const Contact = () => {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </article>
+          </div>
           <div className="col-md-6 col-lg-6 mb-5">
             <h3>Formulaire de contact</h3>
             {/*Mon formulaire, faire une fonction pour envoyé verifié les champs, trouve comment faire ça,
