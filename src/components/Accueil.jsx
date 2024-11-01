@@ -17,9 +17,9 @@ const Accueil = () => {
           </div>
         </div>
       </section>
-      <section className="">
-        <div className="container bg-white ">
-          <div className="row m-5 ">
+      <section className=" ">
+        <div className="container shadow  rounded-3 p-4 m-5 bg-white ">
+          <div className="row m-5  ">
             <div className="col-md-6 mb-5">
               <h2>A propos</h2>
               <p>
