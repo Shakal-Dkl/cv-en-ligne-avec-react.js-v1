@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import "../app.css";
 import Accueil from "./Accueil";
 import Services from "./Services";
 import Réalisations from "./Réalisations";
@@ -11,11 +12,16 @@ const Header = () => {
     <div>
       <header>
         <nav
-          className="navbar navbar-expand-lg"
+          className="navbar navbar-expand-lg text-light text-uppercase "
           style={{ backgroundColor: "#1e1e1e" }}
         >
-          <div className="container-fluid">
-            <Link className="navbar-brand" href="top">
+          <div className="container-fluid ">
+            {/*vérifié le bon fonctionement du lien john doe  */}
+            <Link
+              className="navbar-brand"
+              to="page-top"
+              style={{ color: "#EEE" }}
+            >
               John Doe
             </Link>
             <button
@@ -34,9 +40,10 @@ const Header = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                <li className="nav-item">
+                <li className="nav-item ">
                   <Link
-                    className="nav-link active"
+                    className="nav-link active font-weight-bold"
+                    style={{ color: "#444" }}
                     aria-current="page"
                     to="/Accueil"
                   >
@@ -44,7 +51,11 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Services">
+                  <Link
+                    className="nav-link"
+                    style={{ color: "#444" }}
+                    to="/Services"
+                  >
                     Services
                   </Link>
                 </li>
