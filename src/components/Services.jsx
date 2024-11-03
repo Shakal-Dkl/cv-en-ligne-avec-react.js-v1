@@ -12,10 +12,20 @@ const Services = () => {
       >
         <h1>MON OFFRE DE SERVICES</h1>
         <p>Voici les prestations sur lesquelles je peux intervenir.</p>
+        <hr
+          className=""
+          style={{
+            border: "2px solid",
+            width: "25%",
+            margin: "0 auto",
+            color: "#0d6efd",
+            opacity: "100",
+          }}
+        ></hr>
       </div>
-      <div className="container text-center " id="main">
-        <div className="row justify-content-center  ">
-          <div className="shadow-sm rounded-4 bg-white col-md-6 col-lg-3 m-5 p-5">
+      <div className="container px-5 text-center">
+        <div className="row m-5">
+          <div className="shadow-sm rounded-4 bg-white col-6 col-md-4 col-lg-4">
             <i
               class="fa-solid fa-desktop fa-2xl"
               style={{ color: "#0d6efd" }}
@@ -27,7 +37,7 @@ const Services = () => {
               navigation optimale à l'internaute.
             </p>
           </div>
-          <div className="shadow-sm rounded-4 bg-white col-md-6 col-lg-3 m-5 p-5">
+          <div className="shadow-sm rounded-4 bg-white col-6 col-md-4 col-lg-4">
             <i
               class="fa-solid fa-file-code fa-2xl"
               style={{ color: "#0d6efd" }}
@@ -38,7 +48,7 @@ const Services = () => {
               l'utilisation des langages HTML, CSS, JavaScript et PHP.
             </p>
           </div>
-          <div className="shadow-sm rounded-4 bg-white col-md-6 col-lg-3 m-5 p-5">
+          <div className="shadow-sm rounded-4 bg-white col-6 col-md-4 col-lg-4">
             <i
               class="fa-solid fa-magnifying-glass-dollar fa-2xl"
               style={{ color: "#0d6efd" }}

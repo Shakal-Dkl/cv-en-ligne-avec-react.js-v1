@@ -17,12 +17,22 @@ const Accueil = () => {
           </div>
         </div>
       </section>
-      <section className=" ">
-        <div className="container shadow  rounded-3 p-4 m-5 bg-white ">
-          <div className="row m-5  ">
+      <section className=" m-5">
+        <div className="container shadow  rounded-3 p-1 bg-white ">
+          <div className="row m-5 ">
             <div className="col-md-6 mb-5">
-              <h2>A propos</h2>
-              <p>
+              <h2 className="pb-2">A propos</h2>
+              <hr
+                className=""
+                style={{
+                  border: "1px solid",
+                  width: "100%",
+                  margin: "0 auto",
+                  color: "#0d6efd",
+                  opacity: "100",
+                }}
+              ></hr>
+              <p className="pt-5">
                 Passionné par l'informatique et les nouvelles technologies, j'ai
                 suivi une formation d'
                 <strong>intégrateur-développeur web</strong>

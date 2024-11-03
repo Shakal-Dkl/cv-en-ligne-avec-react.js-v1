@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <section className="row">
+        <section className="">
           <div className="container p-5">
             <div className="row justify-content-between">
-              <article className="col-md-6 col-lg-2 mb-5">
+              <article className="col-md-6 col-lg-2 ">
                 <h4>John Doe</h4>
                 <h6>40 rue Laure Sieblod</h6>
                 <h6>69009 Lyon, France</h6>
@@ -32,7 +32,7 @@ const Footer = () => {
                   ></Link>
                 </div>
               </article>
-              <article className="col-md-6 col-lg-2 mb-5">
+              <article className="col-md-6 col-lg-2">
                 <h3>Liens utiles</h3>
                 <Link
                   to=""
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link href="">linkeded</Link>
                 <Link href="">linkeded</Link>
               </article>
-              <article className="col-md-6 col-lg-2 mb-5">
+              <article className="col-md-6 col-lg-2 ">
                 <h3>Mes dernieres réalisations</h3>
                 <h4>40 rue Laure Sieblod</h4>
                 <h4>69009 Lyon, France</h4>
@@ -55,7 +55,7 @@ const Footer = () => {
                 <Link href="">facebood</Link>
                 <Link href="">linkeded</Link>
               </article>
-              <article className="col-md-6 col-lg-2 mb-5">
+              <article className="col-md-6 col-lg-2">
                 <h3>Mes derniers articles</h3>
                 <h4>40 rue Laure Sieblod</h4>
                 <h4>69009 Lyon, France</h4>
@@ -68,8 +68,8 @@ const Footer = () => {
           </div>
         </section>
 
-        <div>
-          <p className="text-center m-0 text-bg-dark">Designed by John Doe</p>
+        <div className="text-light" style={{ backgroundColor: "#1e1e1e" }}>
+          <p className="text-center">Designed by John Doe</p>
         </div>
       </footer>
     </div>

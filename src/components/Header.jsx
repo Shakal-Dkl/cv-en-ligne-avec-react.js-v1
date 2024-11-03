@@ -40,10 +40,9 @@ const Header = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                <li className="nav-item ">
+                <li className="nav-item">
                   <Link
-                    className="nav-link active font-weight-bold"
-                    style={{ color: "#444" }}
+                    className="nav-link Active"
                     aria-current="page"
                     to="/Accueil"
                   >
@@ -51,11 +50,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    style={{ color: "#444" }}
-                    to="/Services"
-                  >
+                  <Link className="nav-link" to="/Services">
                     Services
                   </Link>
                 </li>
