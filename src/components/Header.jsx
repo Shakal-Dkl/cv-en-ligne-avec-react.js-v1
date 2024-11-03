@@ -17,22 +17,22 @@ const Header = () => {
         >
           <div className="container-fluid ">
             {/*vérifié le bon fonctionement du lien john doe  */}
-            <Link className="navbar-brand text-white" to="page-top">
+            <Link className="navbar-brand text-white" to="">
               John Doe
             </Link>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              aria-controls="navbarSupportedContent "
               aria-expanded="false"
-              aria-label="Toggle navigation"
+              aria-label="Toggle navigation "
             >
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse "
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">

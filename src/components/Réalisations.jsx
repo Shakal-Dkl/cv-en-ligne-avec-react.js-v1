@@ -5,7 +5,7 @@ import rea3 from "../assets/img/portfolio/espace-bien-etre.jpg";
 const Réalisation = () => {
   return (
     <div>
-      <div className="title_rea text-center">
+      <div className="title_rea text-center mb-5 mt-5">
         {/*mettre la bar bleu, trouve comment faire */}
         <h1 className=" text-uppercase">Portfolio</h1>
         <p>Voici quelques-une de mes réalisations.</p>
@@ -20,7 +20,7 @@ const Réalisation = () => {
           }}
         ></hr>
       </div>
-      <div className="container text-center">
+      <div className="container text-center mb-5">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
