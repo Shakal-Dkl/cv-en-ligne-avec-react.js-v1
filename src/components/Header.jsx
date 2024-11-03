@@ -12,16 +12,12 @@ const Header = () => {
     <div>
       <header>
         <nav
-          className="navbar navbar-expand-lg text-light text-uppercase "
+          className="navbar navbar-expand-lg text-uppercase "
           style={{ backgroundColor: "#1e1e1e" }}
         >
           <div className="container-fluid ">
             {/*vérifié le bon fonctionement du lien john doe  */}
-            <Link
-              className="navbar-brand"
-              to="page-top"
-              style={{ color: "#EEE" }}
-            >
+            <Link className="navbar-brand text-white" to="page-top">
               John Doe
             </Link>
             <button
