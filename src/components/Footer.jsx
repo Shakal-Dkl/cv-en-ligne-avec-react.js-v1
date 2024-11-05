@@ -1,13 +1,12 @@
 import React from "react";
-import "./footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
       <footer>
-        <section className="">
-          <div className="container p-5">
+        <section className=" " style={{ backgroundColor: "#EEE" }}>
+          <div className="container pt-5">
             <div className="row justify-content-between">
               <article className="col-md-6 col-lg-2 ">
                 <h4>John Doe</h4>

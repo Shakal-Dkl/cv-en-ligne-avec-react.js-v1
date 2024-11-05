@@ -50,12 +50,12 @@ const Accueil = () => {
                 j'écris et je recherche les bonnes pratiques du web.
               </p>
             </div>
-            <div className="col-md-6 mb-5">
+            <div className="col-md-6">
               <img className="img-fluid" src={img1} alt="img John Doe" />
               <h2>Mes compétences</h2>
               <div className="Htmltbar">
-                <p>HTML 90%</p>
-                <div className="progress">
+                <p className="m-1">HTML 90%</p>
+                <div className="progress mb-3">
                   <div
                     className="progress-bar bg-danger"
                     role="progressbar"
@@ -68,8 +68,8 @@ const Accueil = () => {
                 </div>
               </div>
               <div className="Cssbar">
-                <p>CSS3 80%</p>
-                <div className="progress">
+                <p className="m-1">CSS3 80%</p>
+                <div className="progress mb-3">
                   <div
                     className="progress-bar bg-info"
                     role="progressbar"
@@ -82,8 +82,8 @@ const Accueil = () => {
                 </div>
               </div>
               <div className="javascriptbar">
-                <p>JAVASCRIPT 70%</p>
-                <div className="progress">
+                <p className="m-1">JAVASCRIPT 70%</p>
+                <div className="progress mb-3">
                   <div
                     className="progress-bar bg-warning"
                     role="progressbar"
@@ -96,8 +96,8 @@ const Accueil = () => {
                 </div>
               </div>
               <div className="phpbar">
-                <p>PHP 60%</p>
-                <div className="progress">
+                <p className="m-1">PHP 60%</p>
+                <div className="progress mb-3">
                   <div
                     className="progress-bar bg-success"
                     role="progressbar"
@@ -110,8 +110,8 @@ const Accueil = () => {
                 </div>
               </div>
               <div className="reactbar">
-                <p>REACT 50%</p>
-                <div className="progress">
+                <p className="m-1">REACT 50%</p>
+                <div className="progress mb-3">
                   <div
                     className="progress-bar bg-primary"
                     role="progressbar"

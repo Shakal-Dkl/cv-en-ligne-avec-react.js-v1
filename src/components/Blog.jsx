@@ -14,7 +14,7 @@ const Blog = () => {
       </div>
       <div className="container-justify-center text-center">
         {/*trouve moi cette barre bleu, peut etre en css */}
-        <h1 className="text-uppercase">Blog</h1>
+        <h1 className="text-uppercase mt-5">Blog</h1>
         <p>Retrouvez ici quelques articles sur le developpement web.</p>
         <hr
           className=""
@@ -27,7 +27,7 @@ const Blog = () => {
           }}
         ></hr>
       </div>
-      <div className="container">
+      <div className="container mt-5 mb-5">
         <div className="container text-center">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
