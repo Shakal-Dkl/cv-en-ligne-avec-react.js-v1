@@ -34,11 +34,7 @@ const Footer = () => {
               </article>
               <article className="col-md-6 col-lg-2">
                 <h3>Liens utiles</h3>
-                <Link
-                  to=""
-                  className="fa-solid fa-chevron-right"
-                  style={{ color: "#0d6efd" }}
-                >
+                <Link to="" style={{ color: "#0d6efd" }}>
                   Accueil
                 </Link>
                 <Link href="">facebood</Link>
