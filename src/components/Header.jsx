@@ -16,7 +16,7 @@ const Header = () => {
           style={{ backgroundColor: "#1e1e1e" }}
         >
           <div className="container-fluid ">
-            {/*vérifié le bon fonctionement du lien john doe  */}
+            {/*vérifié le bon fonctionement du lien john doe voir a le déplacé pour l'affichage de la premiere page. */}
             <Link className="navbar-brand text-white" to="">
               John Doe
             </Link>

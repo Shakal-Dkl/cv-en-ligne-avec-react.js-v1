@@ -1,3 +1,4 @@
+import React from "react";
 import Banner from "../assets/img/banner.jpg";
 
 const Services = () => {

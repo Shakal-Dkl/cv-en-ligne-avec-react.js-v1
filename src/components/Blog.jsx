@@ -1,3 +1,4 @@
+import React from "react";
 import Banner from "../assets/img/banner.jpg";
 import blog1 from "../assets/img/blog/coder.jpg";
 import blog2 from "../assets/img/blog/croissance.jpg";

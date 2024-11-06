@@ -1,3 +1,4 @@
+import React from "react";
 import rea1 from "../assets/img/portfolio/fresh-food.jpg";
 import rea2 from "../assets/img/portfolio/restaurant-japonais.jpg";
 import rea3 from "../assets/img/portfolio/espace-bien-etre.jpg";

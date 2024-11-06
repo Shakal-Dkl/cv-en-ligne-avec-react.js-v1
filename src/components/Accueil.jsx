@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../assets/img/john-doe-about.jpg";
 import "./Accueil.css";
