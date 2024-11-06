@@ -1,10 +1,10 @@
 import React from "react";
 
-const Mentionlegale = () => {
+const Mentionslegales = () => {
   return (
     <div>
       <div className="container">
-        <h1 className="text-center upper-case">mentions légales</h1>
+        <h1 className="text-center upper-case mt-5">mentions légales</h1>
         <hr
           className="mb-5"
           style={{
@@ -16,7 +16,7 @@ const Mentionlegale = () => {
           }}
         ></hr>
       </div>
-      <div className="container">
+      <div className="container mb-5">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -119,4 +119,4 @@ const Mentionlegale = () => {
   );
 };
 
-export default Mentionlegale;
+export default Mentionslegales;
