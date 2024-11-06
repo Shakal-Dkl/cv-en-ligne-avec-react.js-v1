@@ -1,3 +1,4 @@
+import React from "react";
 import Banner from "../assets/img/banner.jpg";
 
 const Services = () => {
@@ -23,9 +24,9 @@ const Services = () => {
           }}
         ></hr>
       </div>
-      <div className="container px-5 text-center">
-        <div className="row m-5">
-          <div className="shadow-sm rounded-4 bg-white col-6 col-md-4 col-lg-4">
+      <div className="container text-center">
+        <div className="row row-cols- row-cols-md-3 g-4">
+          <div className="shadow-sm rounded-4 bg-white col">
             <i
               class="fa-solid fa-desktop fa-2xl"
               style={{ color: "#0d6efd" }}
@@ -37,7 +38,7 @@ const Services = () => {
               navigation optimale à l'internaute.
             </p>
           </div>
-          <div className="shadow-sm rounded-4 bg-white col-6 col-md-4 col-lg-4">
+          <div className="shadow-sm rounded-4 bg-white col">
             <i
               class="fa-solid fa-file-code fa-2xl"
               style={{ color: "#0d6efd" }}
@@ -48,7 +49,7 @@ const Services = () => {
               l'utilisation des langages HTML, CSS, JavaScript et PHP.
             </p>
           </div>
-          <div className="shadow-sm rounded-4 bg-white col-6 col-md-4 col-lg-4">
+          <div className="shadow-sm rounded-4 bg-white col">
             <i
               class="fa-solid fa-magnifying-glass-dollar fa-2xl"
               style={{ color: "#0d6efd" }}
