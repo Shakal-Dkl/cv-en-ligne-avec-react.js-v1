@@ -3,7 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "../app.css";
 import Accueil from "./Accueil";
 import Services from "./Services";
-import Réalisations from "./Réalisations";
+import Réalisations from "./Realisations";
 import Blog from "./Blog";
 import Contact from "./Contact";
 
@@ -12,16 +12,16 @@ const Header = () => {
     <div>
       <header>
         <nav
-          className="navbar navbar-expand-lg text-uppercase "
+          className="navbar navbar-dark navbar-expand-lg text-uppercase "
           style={{ backgroundColor: "#1e1e1e" }}
         >
           <div className="container-fluid ">
             {/*vérifié le bon fonctionement du lien john doe voir a le déplacé pour l'affichage de la premiere page. */}
-            <Link className="navbar-brand text-white" to="">
+            <Link className="navbar-brand text-white" to="/Accueil">
               John Doe
             </Link>
             <button
-              className="navbar-toggler text-white"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -51,7 +51,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Réalisations">
+                  <Link className="nav-link" to="/Realisations">
                     Realisations
                   </Link>
                 </li>
@@ -72,7 +72,7 @@ const Header = () => {
         <Routes>
           <Route path="/Accueil" element={<Accueil />}></Route>
           <Route path="/Services" element={<Services />}></Route>
-          <Route path="/Réalisations" element={<Réalisations />}></Route>
+          <Route path="/Realisations" element={<Réalisations />}></Route>
           <Route path="/Blog" element={<Blog />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
         </Routes>

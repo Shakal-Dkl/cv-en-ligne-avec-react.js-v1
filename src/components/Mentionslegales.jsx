@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Mentionslegales = () => {
   return (
     <div>
       <div className="container">
-        <h1 className="text-center upper-case mt-5">mentions légales</h1>
+        <h1 className="upper-case text-center text-uppercase mt-5">
+          mentions légales
+        </h1>
         <hr
           className="mb-5"
           style={{
@@ -17,11 +20,11 @@ const Mentionslegales = () => {
         ></hr>
       </div>
       <div className="container mb-5">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingOne">
               <button
-                class="accordion-button"
+                className="text-semibold accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -33,26 +36,45 @@ const Mentionslegales = () => {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              className="accordion-collapse collapse show"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
-                <address className="">
-                  <i className="fas fa-map-marker">
-                    40 Rue Laure Diebold,
-                    <br /> 69009 Lyon, France
-                  </i>
-                  <br />
-                  <i className="fas fa-mobile-alt"> 06 20 30 40 50</i>
+              <div className="accordion-body">
+                <address>
+                  <h6>
+                    <i className="fa-solid fa-location-dot"></i> 40 Rue Laure
+                    Diebold
+                  </h6>
+                  <h6> 69009 Lyon, France</h6>
+                  <i className="fas fa-mobile-alt"></i>
+                  <a
+                    className="text-semibold"
+                    href="tel:0620304050"
+                    style={{ textDecoration: "none" }}
+                  >
+                    {" "}
+                    06 20 30 40 50
+                  </a>
+
+                  <div className="text-semibold text-lowercase">
+                    <i className="fa-solid fa-envelope"></i>
+                    <Link
+                      to="mailto:john.doe@gmail.com"
+                      style={{ textDecoration: "none" }}
+                    >
+                      {" "}
+                      john.doe@gmail.com
+                    </Link>
+                  </div>
                 </address>
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
               <button
-                class="accordion-button collapsed"
+                className="text-semibold accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -68,23 +90,32 @@ const Mentionslegales = () => {
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              <div className="accordion-body">
+                <h3>Always Data</h3>
+                <h6>
+                  91 rue du Faubourg Saint Honoré <br />
+                  75008 Paris
+                </h6>
+                <i
+                  className="fa-solid fa-globe"
+                  style={{ color: "#000000" }}
+                ></i>
+                <Link
+                  className="text-semibold"
+                  style={{ textDecoration: "none", color: "#0d6efd" }}
+                  target="_blank"
+                  to="https://www.alwaysdata.com/fr/"
+                >
+                  {" "}
+                  www.alwaysdata.com
+                </Link>
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
               <button
-                class="accordion-button collapsed"
+                className="text-semibold accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -96,20 +127,24 @@ const Mentionslegales = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+              <div className="accordion-body">
+                <h2>Crédits</h2>
+                <h6>Site développé par John Doe, étudiant du CEF.</h6>
+                <h6>
+                  Les images libres de droit sont issues du site{" "}
+                  <a
+                    target="blank"
+                    style={{ textDecoration: "none", color: "#0d6efd" }}
+                    href="https://pixabay.com/fr/"
+                  >
+                    Pixabay
+                  </a>
+                  .
+                </h6>
               </div>
             </div>
           </div>
