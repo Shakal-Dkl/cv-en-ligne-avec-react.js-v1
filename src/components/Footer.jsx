@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Mentionslegales from "./Mentionslegales";
-import Réalisations from "./Réalisations";
+import Realisations from "./Realisations";
 
 const Footer = () => {
   return (
@@ -11,10 +11,10 @@ const Footer = () => {
           <Route path="/Mentionslegales" element={<Mentionslegales />}></Route>
         </Routes>
         <section className=" " style={{ backgroundColor: "#EEE" }}>
-          <div className="container pt-5">
+          <div className="container pt-5 ">
             <div className="row justify-content-between">
               <div className="col-md-6 col-lg-2 ">
-                <h4>John Doe</h4>
+                <h5>John Doe</h5>
                 <h6>40 rue Laure Sieblod</h6>
                 <h6>69009 Lyon, France</h6>
                 <h6>Téléphone : 06 20 30 40 50</h6>
@@ -37,14 +37,12 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-6 col-lg-2">
-                <h4>Liens utiles</h4>
+                <h5>Liens utiles</h5>
                 <ul className="list-unstyled">
                   <li className="">
-                    <Link to="/Accueil" style={{ color: "#0d6efd" }}>
-                      Accueil
-                    </Link>
+                    <Link to="/Accueil">Accueil</Link>
                   </li>
-                  <li className="">
+                  <li>
                     <Link to="/A propos">A propos</Link>
                   </li>
                   <li>
@@ -59,21 +57,21 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-md-6 col-lg-2 ">
-                <h4>Mes dernieres réalisations</h4>
+                <h5>Mes dernieres réalisations</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <Link to="/Réalisations">Fresh food</Link>
+                    <Link to="/Realisations">Fresh food</Link>
                   </li>
                   <li>
-                    <Link to="/Réalisations">Restaurant Akira</Link>
+                    <Link to="/Realisations">Restaurant Akira</Link>
                   </li>
                   <li>
-                    <Link to="/Réalisations">Espace bien-être</Link>
+                    <Link to="/Realisations">Espace bien-être</Link>
                   </li>
                 </ul>
               </div>
               <article className="col-md-6 col-lg-2">
-                <h4>Mes derniers articles</h4>
+                <h5>Mes derniers articles</h5>
                 <ul className="list-unstyled">
                   <li>
                     <Link to="/Blog">Coder son site en HTML/CSS</Link>
@@ -89,8 +87,8 @@ const Footer = () => {
             </div>
           </div>
         </section>
-        <div className="text-light" style={{ backgroundColor: "#1e1e1e" }}>
-          <p className="text-center">Designed by John Doe</p>
+        <div className="text-light " style={{ backgroundColor: "#1e1e1e" }}>
+          <p className="text-center p-3">Designed by John Doe</p>
         </div>
       </footer>
     </div>

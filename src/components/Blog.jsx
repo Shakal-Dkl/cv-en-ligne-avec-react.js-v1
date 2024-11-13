@@ -30,110 +30,164 @@ const Blog = () => {
       </div>
       <div className="container mt-5 mb-5">
         <div className="container text-center">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <div className="card h-100">
                 <img src={blog1} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h2 class="card-title">Fresh food</h2>
-                  <p class="card-text">
-                    Réalisation d'un site avec commande en ligne.
+                <div className="card-body">
+                  <h2 className="text-semibold card-title">
+                    Coder sont site en HTML/CSS
+                  </h2>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Obcaecati inventore commodi odio repellendus velit, dolore
+                    quidem perferendis repellat labore iusto ipsa veniam nobis
+                    modi adipisci voluptas vero quod maxime! Praesentium?
                   </p>
-                  <button type="button" class="btn btn-outline-primary">
+                  <button type="button" className="btn btn-outline-primary">
                     Voir
                   </button>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">
-                    Site réalisé avec PHP et MySQL
+                <div className="card-footer">
+                  <small className="text-muted">
+                    Publié le 13 novembre 2024
                   </small>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src={blog2} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h2 class="card-title">Restaurant Akira</h2>
-                  <p class="card-text">Réalisation d'un site vitrine.</p>
-                  <button type="button" class="btn btn-outline-primary">
+            <div className="col">
+              <div className="card h-100">
+                <img src={blog2} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h2 className="text-semibold card-title">
+                    Vendre ses produits sur le web
+                  </h2>
+                  <p className="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Repudiandae corporis quis et repellendus exercitationem,
+                    iste alias mollitia sunt deserunt sit illum officia rem
+                    consequatur earum sequi nulla nam, repellat eos.$
+                  </p>
+                  <button type="button" className="btn btn-outline-primary">
                     Voir
                   </button>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Site réalisé avec WordPress</small>
+                <div className="card-footer">
+                  <small className="text-muted">
+                    Publié le 13 novembre 2024
+                  </small>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src={blog3} class="card-img-top" alt="espace_bien_être" />
-                <div class="card-body">
-                  <h2 class="card-title">Espace bien-être</h2>
-                  <p class="card-text">
-                    Réalisation d'un site vitrine pour un patricien de
-                    bien-être.
+            <div className="col">
+              <div className="card h-100">
+                <img
+                  src={blog3}
+                  className="card-img-top"
+                  alt="espace_bien_être"
+                />
+                <div className="card-body">
+                  <h2 className="text-semibold card-title">
+                    Se positionner sur Google
+                  </h2>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum error laboriosam ipsum id libero eius fugiat dolor
+                    culpa quas rem, quam deserunt autem, cumque exercitationem
+                    qui debitis consectetur nostrum sint.
                   </p>
-                  <button type="button" class="btn btn-outline-primary">
+                  <button type="button" className="btn btn-outline-primary">
                     Voir
                   </button>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Site réalisé en HTML/CSS</small>
+                <div className="card-footer">
+                  <small className="text-muted">
+                    Publié le 13 novembre 2024
+                  </small>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src={blog4} class="card-img-top" alt="espace_bien_être" />
-                <div class="card-body">
-                  <h2 class="card-title">Espace bien-être</h2>
-                  <p class="card-text">
-                    Réalisation d'un site vitrine pour un patricien de
-                    bien-être.
+            <div className="col">
+              <div className="card h-100">
+                <img
+                  src={blog4}
+                  className="card-img-top"
+                  alt="espace_bien_être"
+                />
+                <div className="card-body">
+                  <h2 className="text-semibold card-title">
+                    Coder en responsive design
+                  </h2>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    cum repudiandae vel soluta esse incidunt officiis
+                    accusantium, veritatis velit itaque dolor aperiam dolorem
+                    consequatur impedit recusandae, architecto nisi modi est.
                   </p>
-                  <button type="button" class="btn btn-outline-primary">
+                  <button type="button" className="btn btn-outline-primary">
                     Voir
                   </button>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Site réalisé en HTML/CSS</small>
+                <div className="card-footer">
+                  <small className="text-muted">
+                    Publié le 13 novembre 2024
+                  </small>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src={blog5} class="card-img-top" alt="espace_bien_être" />
-                <div class="card-body">
-                  <h2 class="card-title">Espace bien-être</h2>
-                  <p class="card-text">
-                    Réalisation d'un site vitrine pour un patricien de
-                    bien-être.
+            <div className="col">
+              <div className="card h-100">
+                <img
+                  src={blog5}
+                  className="card-img-top"
+                  alt="espace_bien_être"
+                />
+                <div className="card-body">
+                  <h2 className="text-semibold card-title">
+                    Technique de référencement
+                  </h2>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia fugiat delectus consectetur facilis eos voluptatibus.
+                    At, aliquid sit. Nostrum tempore voluptate blanditiis animi
+                    odit itaque deleniti fugit dolor saepe enim?
                   </p>
-                  <button type="button" class="btn btn-outline-primary">
+                  <button type="button" className="btn btn-outline-primary">
                     Voir
                   </button>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Site réalisé en HTML/CSS</small>
+                <div className="card-footer">
+                  <small className="text-muted">
+                    Publié le 13 novembre 2024
+                  </small>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src={blog6} class="card-img-top" alt="espace_bien_être" />
-                <div class="card-body">
-                  <h2 class="card-title">Espace bien-être</h2>
-                  <p class="card-text">
-                    Réalisation d'un site vitrine pour un patricien de
-                    bien-être.
+            <div className="col">
+              <div className="card h-100">
+                <img
+                  src={blog6}
+                  className="card-img-top"
+                  alt="espace_bien_être"
+                />
+                <div className="card-body">
+                  <h2 className="text-semibold card-title">
+                    Apprendre à coder
+                  </h2>
+                  <p className="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Voluptatum praesentium illum, repellat placeat corporis,
+                    aliquam ipsa recusandae reiciendis nostrum rem hic quam cum
+                    pariatur nemo! In non officiis eos minima?
                   </p>
-                  <button type="button" class="btn btn-outline-primary">
+                  <button type="button" className="btn btn-outline-primary">
                     Voir
                   </button>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">Site réalisé en HTML/CSS</small>
+                <div className="card-footer">
+                  <small className="text-muted">
+                    Publié le 13 novembre 2024
+                  </small>
                 </div>
               </div>
             </div>

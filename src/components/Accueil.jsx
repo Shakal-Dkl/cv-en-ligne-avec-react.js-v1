@@ -9,7 +9,9 @@ const Accueil = () => {
       <section>
         <div className="bgimage">
           <div className="container text-white text-center ">
-            <h1 className="">Bonjour, je suis John Doe</h1>
+            <h1 className="fontsize" style={{ fontSize: "4.5rem" }}>
+              Bonjour, je suis John Doe
+            </h1>
             <h2>Développeur web full stack</h2>
             {/*Faire le bouton avec le CSS trop moche en bootstrap */}
             <Link className="btn btn-primary" to="#" role="button">
@@ -38,13 +40,13 @@ const Accueil = () => {
                 suivi une formation d'
                 <strong>intégrateur-développeur web</strong>
                 au CEF. Au cours de cette formation, j'ai pu acquérir des bases
-                solides pour travailler dans le domaine du
-                <strong>développement web</strong>.
+                solides pour travailler dans le domaine du{" "}
+                <strong> développement web</strong>.
               </p>
               <p>
                 Basé à lyon, je suis en recherche d'une alternance au sein d'une
                 agence digitale pour consolider ma formation de
-                <strong>développeur web full stack</strong>.
+                <strong> développeur web full stack</strong>.
               </p>
               <p>
                 J'accorde une attention particulière à la qualité du code que
