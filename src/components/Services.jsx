@@ -24,42 +24,49 @@ const Services = () => {
           }}
         ></hr>
       </div>
-      <div className="container text-center">
-        <div className="row row-cols- row-cols-md-3 g-4">
-          <div className="shadow-sm rounded-4 bg-white col">
-            <i
-              class="fa-solid fa-desktop fa-2xl"
-              style={{ color: "#0d6efd" }}
-            ></i>
-            <h2>UX DESIGN</h2>
-            <p>
-              L'<strong>UX Design</strong> est une methode de conception centrée
-              sur l'utilisateur. Son but est d'offrir une expérience de
-              navigation optimale à l'internaute.
-            </p>
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-4 mb-5">
+            <div className="shadow-sm rounded-4 bg-white p-5">
+              <i
+                className="fa-solid fa-desktop fa-2xl pb-4"
+                style={{ color: "#0d6efd" }}
+              ></i>
+              <h2>UX DESIGN</h2>
+              <p>
+                L'<strong>UX Design</strong> est une methode de conception
+                centrée sur l'utilisateur. Son but est d'offrir une expérience
+                de navigation optimale à l'internaute.
+              </p>
+            </div>
           </div>
-          <div className="shadow-sm rounded-4 bg-white col">
-            <i
-              class="fa-solid fa-file-code fa-2xl"
-              style={{ color: "#0d6efd" }}
-            ></i>
-            <h2>DÉVELOPPEMENT WEB</h2>
-            <p>
-              Le<strong>développement de sites web</strong> repose sur
-              l'utilisation des langages HTML, CSS, JavaScript et PHP.
-            </p>
+          <div className="col-md-4 mb-5">
+            <div className="shadow-sm rounded-4 bg-white p-5">
+              <i
+                className="fa-solid fa-file-code fa-2xl pb-4"
+                style={{ color: "#0d6efd" }}
+              ></i>
+              <h2>DÉVELOPPEMENT WEB</h2>
+              <p>
+                Le<strong>développement de sites web</strong> repose sur
+                l'utilisation des langages HTML, CSS, JavaScript et PHP.
+              </p>
+            </div>
           </div>
-          <div className="shadow-sm rounded-4 bg-white col">
-            <i
-              class="fa-solid fa-magnifying-glass-dollar fa-2xl"
-              style={{ color: "#0d6efd" }}
-            ></i>
-            <h2>RÉFÉRENCEMENT</h2>
-            <p>
-              Le <strong>référencement naturel d'un site</strong>, aussi appelé
-              SEO, consiste à mettre des teccniques en oeuvre pour améliorer sa
-              position dans les résultats des moteurs de recherche.
-            </p>
+          <div className="col-md-4 mb-5">
+            <div className="shadow-sm rounded-4 bg-white p-5">
+              <i
+                className="fa-solid fa-magnifying-glass-dollar fa-2xl pb-4"
+                style={{ color: "#0d6efd" }}
+              ></i>
+              <h2>RÉFÉRENCEMENT</h2>
+              <p>
+                Le <strong>référencement naturel d'un site</strong>, aussi
+                appelé SEO, consiste à mettre des teccniques en oeuvre pour
+                améliorer sa position dans les résultats des moteurs de
+                recherche.
+              </p>
+            </div>
           </div>
         </div>
       </div>
