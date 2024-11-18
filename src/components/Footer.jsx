@@ -1,18 +1,17 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Mentionslegales from "./Mentionslegales";
-import Realisations from "./Realisations";
 
 const Footer = () => {
   return (
     <div>
-      <footer>
+      <footer className="footer">
         <Routes>
           <Route path="/Mentionslegales" element={<Mentionslegales />}></Route>
         </Routes>
-        <section className="pt-5  " style={{ backgroundColor: "#EEE" }}>
-          <div className="container pb-5">
-            <div className="row gx-5 text-nowrap">
+        <section className="ttt" style={{ backgroundColor: "#EEE" }}>
+          <div className="container py-5">
+            <div className="row text-nowrap ">
               <div className="col-md-6 col-lg-3 ">
                 <h5>John Doe</h5>
                 <h6>40 rue Laure Sieblod</h6>
@@ -44,35 +43,35 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Accueil">Accueil</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/A propos">A propos</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Services">Services</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Contact">Me contacter</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Mentionslegales">Mentions légales</Link>
@@ -84,21 +83,21 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Realisations">Fresh food</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Realisations">Restaurant Akira</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Realisations">Espace bien-être</Link>
@@ -110,21 +109,21 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Blog">Coder son site en HTML/CSS</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Blog">Vendre ses produits sur le web</Link>
                   </li>
                   <li>
                     <i
-                      class="fa-solid fa-chevron-right"
+                      className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
                     <Link to="/Blog">Se positionner sur Google</Link>
