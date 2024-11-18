@@ -10,10 +10,10 @@ const Footer = () => {
         <Routes>
           <Route path="/Mentionslegales" element={<Mentionslegales />}></Route>
         </Routes>
-        <section className=" " style={{ backgroundColor: "#EEE" }}>
-          <div className="container ">
-            <div className="row justify-content-evenly p-5">
-              <div className="col-md-6 col-lg-2 ">
+        <section className="pt-5  " style={{ backgroundColor: "#EEE" }}>
+          <div className="container pb-5">
+            <div className="row gx-5 text-nowrap">
+              <div className="col-md-6 col-lg-3 ">
                 <h5>John Doe</h5>
                 <h6>40 rue Laure Sieblod</h6>
                 <h6>69009 Lyon, France</h6>
@@ -39,7 +39,7 @@ const Footer = () => {
                   ></Link>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-2">
+              <div className="col-md-6 col-lg-3">
                 <h5>Liens utiles</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -79,8 +79,8 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-6 col-lg-2 ">
-                <h5>Mes dernieres réalisations</h5>
+              <div className="col-md-6 col-lg-3">
+                <h5 className="">Mes dernieres réalisations</h5>
                 <ul className="list-unstyled">
                   <li>
                     <i
@@ -105,8 +105,8 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <article className="col-md-6 col-lg-2">
-                <h5>Mes derniers articles</h5>
+              <article className="col-md-6 col-lg-3">
+                <h5 className="text-nowrap">Mes derniers articles</h5>
                 <ul className="list-unstyled">
                   <li>
                     <i
