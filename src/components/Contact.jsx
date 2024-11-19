@@ -5,10 +5,10 @@ import background from "../assets/img/contact-bg.jpg";
 const Contact = () => {
   return (
     <div
-      className="Bg_Contact p-5"
+      className="Bg_Contact "
       style={{ backgroundImage: `url(${background})`, position: "cover" }}
     >
-      <div className="container">
+      <div className="container py-5">
         <div className="rounded-3 bg-white pt-5">
           <div className="text-center ">
             <h2 className="text-uppercase">ME CONTACTER</h2>
@@ -117,19 +117,18 @@ const Contact = () => {
                     <i className="fas fa-mobile-alt"> </i> 06 20 30 40 50
                   </h6>
                 </address>
-                <div className="container">
-                  <div className="embed-responsive embed-responsive-16by9">
-                    <iframe
-                      title="map"
-                      className="embed-responsive-item"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5565.313864755457!2d4.799070092087464!3d45.77806522783525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1729716895766!5m2!1sfr!2sfr"
-                      width="550"
-                      height="350"
-                      allowfullscreen=""
-                      loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                  </div>
+                <div className="container my-4">
+                  <iframe
+                    title="Google Map"
+                    className=""
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.626965754105!2d4.796403976619974!3d45.77866571240149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1732003515851!5m2!1sfr!2sfr"
+                    width="100%"
+                    height="350"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
               </div>
             </div>
