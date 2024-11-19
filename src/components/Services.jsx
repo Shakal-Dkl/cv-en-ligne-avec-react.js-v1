@@ -23,15 +23,15 @@ const Services = () => {
           ></hr>
         </div>
       </div>
-      <div className="container text-center">
-        <div className="row">
+      <div className="container text-center ">
+        <div className="row ">
           <div className="col-md-4 mb-5">
-            <div className="shadow-sm rounded-4 bg-white p-5">
+            <div className="shadow-sm rounded-4 bg-white  p-5">
               <i
                 className="fa-solid fa-desktop fa-2xl pb-4"
                 style={{ color: "#0d6efd" }}
               ></i>
-              <h2 className="">UX DESIGN</h2>
+              <h2 className="text-nowrap">UX DESIGN</h2>
               <p>
                 L'<strong>UX Design</strong> est une methode de conception
                 centrée sur l'utilisateur. Son but est d'offrir une expérience
@@ -45,7 +45,7 @@ const Services = () => {
                 className="fa-solid fa-file-code fa-2xl pb-4"
                 style={{ color: "#0d6efd" }}
               ></i>
-              <h2 className="text-nowrap">DÉVELOPPEMENT WEB</h2>
+              <h2 className="">DÉVELOPPEMENT WEB</h2>
               <p>
                 Le<strong>développement de sites web</strong> repose sur
                 l'utilisation des langages HTML, CSS, JavaScript et PHP.
@@ -59,7 +59,7 @@ const Services = () => {
                 style={{ color: "#0d6efd" }}
               ></i>
               <h2 className="">RÉFÉRENCEMENT</h2>
-              <p>
+              <p className="text-justify-center">
                 Le <strong>référencement naturel d'un site</strong>, aussi
                 appelé SEO, consiste à mettre des teccniques en oeuvre pour
                 améliorer sa position dans les résultats des moteurs de
