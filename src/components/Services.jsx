@@ -47,7 +47,7 @@ const Services = () => {
               ></i>
               <h2 className="">DÉVELOPPEMENT WEB</h2>
               <p>
-                Le<strong>développement de sites web</strong> repose sur
+                Le<strong> développement de sites web</strong> repose sur
                 l'utilisation des langages HTML, CSS, JavaScript et PHP.
               </p>
             </div>
@@ -59,7 +59,7 @@ const Services = () => {
                 style={{ color: "#0d6efd" }}
               ></i>
               <h2 className="">RÉFÉRENCEMENT</h2>
-              <p className="text-justify-center">
+              <p className="">
                 Le <strong>référencement naturel d'un site</strong>, aussi
                 appelé SEO, consiste à mettre des teccniques en oeuvre pour
                 améliorer sa position dans les résultats des moteurs de

@@ -2,10 +2,15 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Mentionslegales from "./Mentionslegales";
 
+
+
+
+
+
 const Footer = () => {
   return (
     <div>
-      <footer className="footer">
+      <footer>
         <Routes>
           <Route path="/Mentionslegales" element={<Mentionslegales />}></Route>
         </Routes>
@@ -53,7 +58,7 @@ const Footer = () => {
                       className="fa-solid fa-chevron-right"
                       style={{ color: "#0d6efd" }}
                     ></i>{" "}
-                    <Link to="/A propos">A propos</Link>
+                    <Link to="/Profile">A propos</Link>
                   </li>
                   <li>
                     <i

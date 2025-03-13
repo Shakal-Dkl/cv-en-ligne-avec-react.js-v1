@@ -5,7 +5,7 @@ import "./Accueil.css";
 
 const Accueil = () => {
   return (
-    <div className="accueil">
+    <div>
       <section>
         <div className="bgimage">
           <div className="container text-white text-center ">
@@ -38,7 +38,7 @@ const Accueil = () => {
               <p className="pt-5">
                 Passionné par l'informatique et les nouvelles technologies, j'ai
                 suivi une formation d'
-                <strong>intégrateur-développeur web</strong>
+                <strong>intégrateur-développeur web </strong> 
                 au CEF. Au cours de cette formation, j'ai pu acquérir des bases
                 solides pour travailler dans le domaine du{" "}
                 <strong> développement web</strong>.
