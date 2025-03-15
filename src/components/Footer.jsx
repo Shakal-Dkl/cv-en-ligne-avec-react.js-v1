@@ -1,6 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Mentionslegales from "./Mentionslegales";
+import {Link } from "react-router-dom";
 
 
 
@@ -9,11 +8,7 @@ import Mentionslegales from "./Mentionslegales";
 
 const Footer = () => {
   return (
-    <div>
       <footer>
-        <Routes>
-          <Route path="/Mentionslegales" element={<Mentionslegales />}></Route>
-        </Routes>
         <section className="ttt" style={{ backgroundColor: "#EEE" }}>
           <div className="container py-5">
             <div className="row text-nowrap ">
@@ -142,7 +137,6 @@ const Footer = () => {
           <p className="text-center p-3">Designed by John Doe</p>
         </div>
       </footer>
-    </div>
   );
 };
 

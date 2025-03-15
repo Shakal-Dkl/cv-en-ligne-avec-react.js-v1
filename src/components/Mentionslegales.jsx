@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Mentionslegales = () => {
   return (
     <div>
+      <Header />
       <div className="container">
         <h1 className="upper-case text-center text-uppercase mt-5">
           mentions légales
@@ -86,7 +89,7 @@ const Mentionslegales = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
@@ -150,6 +153,7 @@ const Mentionslegales = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Profile = () => {
   const [profile, setProfile] = useState(null);
@@ -27,12 +29,14 @@ const Profile = () => {
 
   return (
     <div>
+      <Header />
       <h1>{profile.name}</h1>
       <p>{profile.bio}</p>
       <img src={profile.avatar_url} alt={`${profile.name}'s avatar`} width="200" />
       <p>Followers: {profile.followers}</p>
       <p>Following: {profile.following}</p>
       <p>Public Repos: {profile.public_repos}</p>
+      <Footer/>
     </div>
   );
 };

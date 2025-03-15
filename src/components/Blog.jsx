@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 import Banner from "../assets/img/banner.jpg";
 import blog1 from "../assets/img/blog/coder.jpg";
 import blog2 from "../assets/img/blog/croissance.jpg";
@@ -10,6 +12,7 @@ import blog6 from "../assets/img/blog/technos.png";
 const Blog = () => {
   return (
     <div>
+      <Header />
       <div className="banner" id="banniere">
         <img className="img-fluid" src={Banner} alt="img_banner" />
       </div>
@@ -33,7 +36,7 @@ const Blog = () => {
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="card h-100">
-                <img src={blog1} class="card-img-top" alt="..." />
+                <img src={blog1} className ="card-img-top" alt="..." />
                 <div className="card-body">
                   <h2 className="text-semibold card-title">
                     Coder sont site en HTML/CSS
@@ -79,8 +82,8 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="card h-100">
+            <div className ="col">
+              <div className ="card h-100">
                 <img
                   src={blog3}
                   className="card-img-top"
@@ -194,6 +197,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

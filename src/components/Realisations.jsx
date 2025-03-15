@@ -1,11 +1,15 @@
 import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 import rea1 from "../assets/img/portfolio/fresh-food.jpg";
 import rea2 from "../assets/img/portfolio/restaurant-japonais.jpg";
 import rea3 from "../assets/img/portfolio/espace-bien-etre.jpg";
 
+
 const Réalisation = () => {
   return (
     <div>
+      <Header />
       <div className="title_rea text-center mb-5 mt-5">
         {/*mettre la bar bleu, trouve comment faire */}
         <h1 className="text-semibold text-uppercase">Portfolio</h1>
@@ -78,6 +82,7 @@ const Réalisation = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
