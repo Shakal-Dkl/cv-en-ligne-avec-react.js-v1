@@ -1,9 +1,13 @@
 import React from "react";
 import Banner from "../assets/img/banner.jpg";
+import Header from "./Header";
+import Footer from "./Footer";
+
 
 const Services = () => {
   return (
     <div>
+      <Header />
       <div className="banner" id="banniere">
         <img className="img-fluid" src={Banner} alt="img_banner" />
       </div>
@@ -69,6 +73,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

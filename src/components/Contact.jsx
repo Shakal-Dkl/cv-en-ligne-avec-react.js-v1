@@ -1,6 +1,8 @@
 import React from "react";
 import "./Accueil.css";
 import background from "../assets/img/contact-bg.jpg";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
@@ -8,6 +10,7 @@ const Contact = () => {
       className="Bg_Contact "
       style={{ backgroundImage: `url(${background})`, position: "cover" }}
     >
+      <Header />
       <div className="container py-5">
         <div className="rounded-3 bg-white pt-5">
           <div className="text-center ">
@@ -127,7 +130,7 @@ const Contact = () => {
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
               </div>
@@ -135,6 +138,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

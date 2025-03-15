@@ -2,10 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img1 from "../assets/img/john-doe-about.jpg";
 import "./Accueil.css";
+import Header from "./Header";
+import Footer from "./Footer";
+
 
 const Accueil = () => {
   return (
     <div>
+      <Header />
       <section>
         <div className="bgimage">
           <div className="container text-white text-center ">
@@ -130,6 +134,8 @@ const Accueil = () => {
           </div>
         </div>
       </section>
+      <Footer />
+    
     </div>
   );
 };
