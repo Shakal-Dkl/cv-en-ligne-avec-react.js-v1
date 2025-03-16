@@ -6,14 +6,35 @@ import Footer from "./Footer";
 
 const Contact = () => {
   return (
-    <div
-      className="Bg_Contact "
-      style={{ backgroundImage: `url(${background})`, position: "cover" }}
-    >
+    <div className="Bg_Contact" style={{ position: "relative" }}>
+      <div
+        className="background-image"
+        style={{
+          backgroundImage: `url(${background})`,
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1,
+        }}
+      ></div>
+      <div
+        className="overlay"
+        style={{
+          backgroundColor: "rgba(0, 105, 255, 0.5)",
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1,
+        }}
+      ></div>
       <Header />
       <div className="container py-5">
         <div className="rounded-3 bg-white pt-5">
-          <div className="text-center ">
+          <div className="text-center">
             <h2 className="text-uppercase">ME CONTACTER</h2>
             <p>
               Pour me contacter en vue d'un entretien ou d'une future
@@ -35,7 +56,6 @@ const Contact = () => {
               <div className="col-md-6 col-lg-6 mb-5">
                 <h3>Formulaire de contact</h3>
                 <hr
-                  className=""
                   style={{
                     border: "1px solid",
                     width: "100%",
@@ -44,15 +64,13 @@ const Contact = () => {
                     opacity: "100",
                   }}
                 ></hr>
-                {/*Mon formulaire, faire une fonction pour envoyé verifié les champs, trouve comment faire ça,
-            evite que la page se recharge ( prevent default) */}
                 <form className="container mt-5">
                   <div className="mb-3">
                     <input
                       type="name"
                       className="form-control"
                       id="exampleFormControlInput1"
-                      placeholder="Votre nom"
+                      placeholder="Votre nom" required
                     />
                   </div>
                   <div className="mb-3">
@@ -60,7 +78,7 @@ const Contact = () => {
                       type="email"
                       className="form-control"
                       id="exampleFormControlInput1"
-                      placeholder="Votre adresse email"
+                      placeholder="Votre adresse email" required
                     />
                   </div>
                   <div className="mb-3">
@@ -68,7 +86,7 @@ const Contact = () => {
                       type="number"
                       className="form-control"
                       id="exampleFormControlInput1"
-                      placeholder="Votre numéro de téléphone"
+                      placeholder="Votre numéro de téléphone" required
                     />
                   </div>
                   <div className="mb-3">
@@ -76,17 +94,16 @@ const Contact = () => {
                       type="text"
                       className="form-control"
                       id="exampleFormControlInput1"
-                      placeholder="Sujet"
+                      placeholder="Sujet" required
                     />
                   </div>
                   <div className="mb-3">
                     <textarea
                       className="form-control"
                       id="exampleFormControlTextarea1"
-                      placeholder="Votre message"
+                      placeholder="Votre message" required
                       rows="7"
                     ></textarea>
-                    {/*Faire le bouton avec le CSS trop moche en bootstrap */}
                     <div className="btn justify-content-center">
                       <button
                         className="btn"
@@ -99,7 +116,7 @@ const Contact = () => {
                   </div>
                 </form>
               </div>
-              <div className=" col-md-6 col-lg-6 mb-5">
+              <div className="col-md-6 col-lg-6 mb-5">
                 <h3>Mes coordonnées</h3>
                 <hr
                   className="mb-5"
@@ -111,13 +128,13 @@ const Contact = () => {
                     opacity: "100",
                   }}
                 ></hr>
-                <address className="">
+                <address>
                   <h6>
                     <i className="fas fa-map-marker"></i> 40 Rue Laure Diebold,
                     69009 Lyon, France
                   </h6>
                   <h6>
-                    <i className="fas fa-mobile-alt"> </i> 06 20 30 40 50
+                    <i className="fas fa-mobile-alt"></i> 06 20 30 40 50
                   </h6>
                 </address>
                 <div className="container my-4">
@@ -138,7 +155,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

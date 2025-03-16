@@ -11,7 +11,7 @@ import blog6 from "../assets/img/blog/technos.png";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="bg-light">
       <Header />
       <div className="banner" id="banniere">
         <img className="img-fluid" src={Banner} alt="img_banner" />

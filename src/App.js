@@ -11,7 +11,7 @@ import Profile from "./components/Profile";
 
 const App = () => {
   return (
-    <div className="App bg-light">
+    <div className="App">
       <Routes>
         <Route path="*" element={<Accueil />} />
         <Route path="/Accueil/*" element={<Accueil />} />
