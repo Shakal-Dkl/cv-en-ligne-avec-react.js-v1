@@ -8,7 +8,7 @@ import rea3 from "../assets/img/portfolio/espace-bien-etre.jpg";
 
 const Réalisation = () => {
   return (
-    <div>
+    <div className="bg-light">
       <Header />
       <div className="title_rea text-center mb-5 mt-5">
         {/*mettre la bar bleu, trouve comment faire */}

@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 const Accueil = () => {
   return (
-    <div>
+    <div className="bg-light">
       <Header />
       <section>
         <div className="bgimage">
