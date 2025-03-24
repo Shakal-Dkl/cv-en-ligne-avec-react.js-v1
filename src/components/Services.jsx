@@ -49,7 +49,7 @@ const Services = () => {
                 className="fa-solid fa-file-code fa-2xl pb-4"
                 style={{ color: "#0d6efd" }}
               ></i>
-              <h2 className="">DÉVELOPPEMENT WEB</h2>
+              <h2 className="text-nowrap">DÉVELOPPEMENT WEB</h2>
               <p>
                 Le<strong> développement de sites web</strong> repose sur
                 l'utilisation des langages HTML, CSS, JavaScript et PHP.

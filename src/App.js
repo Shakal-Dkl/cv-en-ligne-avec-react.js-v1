@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Mentionslegales from "./components/Mentionslegales";
 import Profile from "./components/Profile";
 
+
 const App = () => {
   return (
     <div className="App">
