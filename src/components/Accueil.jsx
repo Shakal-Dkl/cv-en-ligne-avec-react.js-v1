@@ -4,6 +4,7 @@ import img1 from "../assets/img/john-doe-about.jpg";
 import "./Accueil.css";
 import Header from "./Header";
 import Footer from "./Footer";
+import Bouton from "./Bouton";
 
 
 const Accueil = () => {
@@ -134,6 +135,7 @@ const Accueil = () => {
           </div>
         </div>
       </section>
+      <Bouton />
       <Footer />
     
     </div>
