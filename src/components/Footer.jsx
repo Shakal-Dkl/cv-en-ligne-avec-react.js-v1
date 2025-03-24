@@ -1,5 +1,6 @@
 import React from "react";
 import {Link } from "react-router-dom";
+import Bouton from "./Bouton";
 
 
 
@@ -136,6 +137,7 @@ const Footer = () => {
         <div className="text-light " style={{ backgroundColor: "#1e1e1e" }}>
           <p className="text-center p-3">Designed by John Doe</p>
         </div>
+        <Bouton />
       </footer>
   );
 };
