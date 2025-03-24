@@ -4,6 +4,9 @@ import background from "../assets/img/contact-bg.jpg";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
+
+
 const Contact = () => {
   return (
     <div className="Bg_Contact" style={{ position: "relative" }}>
