@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="d-flex justify-content-center">
                   <Link
                     target="blank"
-                    to="https://github.com/"
+                    to="https://github.com/github-john-doe"
                     className="fa-brands fa-github fa-2xl m-3"
                     style={{ color: "#444444" }}
                   ></Link>

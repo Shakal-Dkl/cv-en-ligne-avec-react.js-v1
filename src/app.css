@@ -22,7 +22,7 @@ h6,
   font-size: 1.3rem;
 }
 
-.navbar .nav-link.active {
+.navbar .nav-link:hover{
   color: white !important;
 }
 
