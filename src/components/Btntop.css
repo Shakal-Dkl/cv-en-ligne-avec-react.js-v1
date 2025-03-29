@@ -13,4 +13,5 @@
 
 .btnh:hover {
   background-color: #298eff;
+  transition: 1s ease;
 }

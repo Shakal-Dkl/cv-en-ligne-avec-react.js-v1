@@ -1,41 +1,39 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
-  const [profile, setProfile] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [users, setUsers] = useState([]);
+
+  const getUsers = async () => {
+    const response = await fetch("https://api.github.com/users/github-john-doe");
+    const json = await response.json();
+    setUsers(json);
+  }
 
   useEffect(() => {
-    fetch('https://api.github.com/users/github-john-doe')
-      .then(response => response.json())
-      .then(data => {
-        setProfile(data);
-        setLoading(false);
-      })
-      .catch(error => {
-        console.error('Error fetching the profile:', error);
-        setLoading(false);
-      });
-  }, []);
+    getUsers();
+   
+  },[])
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
 
-  if (!profile) {
-    return <div>Error loading profile</div>;
-  }
+  
 
   return (
     <div>
       <Header />
-      <h1>{profile.name}</h1>
-      <p>{profile.bio}</p>
-      <img src={profile.avatar_url} alt={`${profile.name}'s avatar`} width="200" />
-      <p>Followers: {profile.followers}</p>
-      <p>Following: {profile.following}</p>
-      <p>Public Repos: {profile.public_repos}</p>
+      <main>
+        <h1>Github user</h1>
+        <h2>{users.name}</h2>
+        <img src={users.avatar_url} alt={`${users.name}'s avatar`} width="200" />
+        <p>{users.bio}</p>
+        <p>Abonnés: {users.followers}</p>
+        <p>Abonnements: {users.following}</p>
+        <p>Créé le le: {users.created_at}</p>
+        <p>Modifié le: {users.updated_at}</p>
+        <Link to>URL repositories: {users.html_url}</Link>
+      </main>
       <Footer/>
     </div>
   );

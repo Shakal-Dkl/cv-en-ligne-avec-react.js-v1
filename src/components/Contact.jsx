@@ -8,6 +8,10 @@ import Footer from "./Footer";
 
 
 const Contact = () => {
+  
+
+
+
   return (
     <div className="Bg_Contact" style={{ position: "relative" }}>
       <div
@@ -67,7 +71,7 @@ const Contact = () => {
                     opacity: "100",
                   }}
                 ></hr>
-                <form className="container mt-5">
+                <form id="formulaire" className="container mt-5">
                   <div className="mb-3">
                     <input
                       type="name"
