@@ -8,7 +8,12 @@ import Footer from "./Footer";
 
 
 const Contact = () => {
-  
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Empêche le rechargement de la page
+    console.log("Formulaire soumis !");
+    // Ajoutez ici la logique pour traiter les données du formulaire
+  };
+
 
 
 
@@ -71,7 +76,7 @@ const Contact = () => {
                     opacity: "100",
                   }}
                 ></hr>
-                <form id="formulaire" className="container mt-5">
+                <form id="formulaire" className="container mt-5" onSubmit={handleSubmit}>
                   <div className="mb-3">
                     <input
                       type="name"
