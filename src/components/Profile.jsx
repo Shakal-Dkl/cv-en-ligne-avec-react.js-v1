@@ -23,7 +23,7 @@ const Profile = () => {
   return (
     <div>
       <Header />
-      <main>
+      <main className="container justify-content-center text-center mt-5">
         <h1>Github user</h1>
         <h2>{users.name}</h2>
         <img src={users.avatar_url} alt={`${users.name}'s avatar`} width="200" />
@@ -32,7 +32,8 @@ const Profile = () => {
         <p>Abonnements: {users.following}</p>
         <p>Créé le le: {users.created_at}</p>
         <p>Modifié le: {users.updated_at}</p>
-        <Link to>URL repositories: {users.html_url}</Link>
+        <p>URL repositories: <Link to>{users.html_url}</Link></p>
+        
       </main>
       <Footer/>
     </div>
