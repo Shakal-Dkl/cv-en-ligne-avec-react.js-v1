@@ -31,3 +31,10 @@
   height: 100%;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .bgimage {
+    height: 50vh; /* Réduit la hauteur sur les petits écrans */
+    background-attachment: scroll; /* Désactive l'effet fixe sur mobile */
+  }
+}

@@ -135,7 +135,9 @@ const Footer = () => {
           </div>
         </section>
         <div className="text-light " style={{ backgroundColor: "#1e1e1e" }}>
-          <p className="text-center p-3">Designed by John Doe</p>
+          <p className="text-center p-3">
+            <i className="fa-regular fa-copyright" style={{ color: "#EEE" }}></i> Designed by John Doe
+          </p>
         </div>
         <Bouton />
       </footer>
