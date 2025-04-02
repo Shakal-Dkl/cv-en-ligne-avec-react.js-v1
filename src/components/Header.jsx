@@ -16,7 +16,7 @@ const Header = () => {
           style={{ backgroundColor: "#1e1e1e" }}
         >
           <div className="container-fluid ">
-            <Link className="navbar-brand text-white" to="/Accueil">
+            <Link className="navbar-brand text-white" to="/accueil">
               John Doe
             </Link>
             <button
@@ -39,28 +39,28 @@ const Header = () => {
                   <Link
                     className="nav-link"
                     aria-current="page"
-                    to="/Accueil"
+                    to="/accueil"
                   >
                     Accueil
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Services">
+                  <Link className="nav-link" to="/services">
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Realisations">
+                  <Link className="nav-link" to="/realisations">
                     Realisations
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Blog">
+                  <Link className="nav-link" to="/blog">
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Contact">
+                  <Link className="nav-link" to="/contact">
                     Me contacter
                   </Link>
                 </li>
@@ -69,11 +69,11 @@ const Header = () => {
           </div>
         </nav>
         <Routes>
-          <Route path="/Accueil" element={<Accueil />}></Route>
-          <Route path="/Services" element={<Services />}></Route>
-          <Route path="/Realisations" element={<Realisations />}></Route>
-          <Route path="/Blog" element={<Blog />}></Route>
-          <Route path="/Contact" element={<Contact />}></Route>
+          <Route path="/accueil" element={<Accueil />}></Route>
+          <Route path="/services" element={<Services />}></Route>
+          <Route path="/realisations" element={<Realisations />}></Route>
+          <Route path="/blog" element={<Blog />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </header>
     </div>
