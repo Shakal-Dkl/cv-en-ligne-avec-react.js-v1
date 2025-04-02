@@ -79,7 +79,7 @@ const Contact = () => {
                 <form id="formulaire" className="container mt-5" onSubmit={handleSubmit}>
                   <div className="mb-3">
                     <input
-                      type="name"
+                      type="text"
                       className="form-control"
                       id="exampleFormControlInput1"
                       placeholder="Votre nom" required
@@ -140,7 +140,7 @@ const Contact = () => {
                     opacity: "100",
                   }}
                 ></hr>
-                <address>
+                <div>
                   <h6>
                     <i className="fas fa-map-marker"></i> 40 Rue Laure Diebold,
                     69009 Lyon, France
@@ -148,7 +148,7 @@ const Contact = () => {
                   <h6>
                     <i className="fas fa-mobile-alt"></i> 06 20 30 40 50
                   </h6>
-                </address>
+                </div>
                 <div className="container my-4">
                   <iframe
                     title="Google Map"
