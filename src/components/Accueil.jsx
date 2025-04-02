@@ -9,11 +9,11 @@ import Footer from "./Footer";
 const Accueil = () => {
   return (
     <div className="bg-light">
-      <Header />
+      <Header/>
       <section>
         <div className="bgimage">
           <div className="container text-white text-center ">
-            <h1 className="fontsize" style={{ fontSize: "4.5rem" }}>
+            <h1 className="fontsize" style={{ fontSize: "4.5 rem" }}>
               Bonjour, je suis John Doe
             </h1>
             <h2>Développeur web full stack</h2>
@@ -134,7 +134,7 @@ const Accueil = () => {
           </div>
         </div>
       </section>
-      <Footer />
+      <Footer/>
     
     </div>
   );
