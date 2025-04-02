@@ -44,7 +44,7 @@ const Mentionslegales = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <address>
+                <div>
                   <h6>
                     <i className="fa-solid fa-location-dot"></i> 40 Rue Laure
                     Diebold
@@ -59,7 +59,6 @@ const Mentionslegales = () => {
                     {" "}
                     06 20 30 40 50
                   </a>
-
                   <div className="text-semibold text-lowercase">
                     <i className="fa-solid fa-envelope"></i>
                     <Link
@@ -70,7 +69,7 @@ const Mentionslegales = () => {
                       john.doe@gmail.com
                     </Link>
                   </div>
-                </address>
+                </div>
               </div>
             </div>
           </div>
